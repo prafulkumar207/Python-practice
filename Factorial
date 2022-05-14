@@ -1,0 +1,7 @@
+def factorial(n):
+    y= int(1)
+    for i in range(1,n+1):
+        y=y*i
+    print("The Value Of Factorial is",y)
+A=int(input("enter the value of n\"))
+factorial(A)
