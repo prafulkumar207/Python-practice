@@ -1,0 +1,8 @@
+def GCD(a,b):
+    if(b==0):
+        return(a)
+    else:
+        return(GCD(b,a%b))
+a=int(input("enter 1st number"))
+b=int(input("enter 2st number"))
+print("The GCD of two no is:",GCD(a,b))
