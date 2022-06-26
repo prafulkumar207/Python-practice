@@ -1,0 +1,8 @@
+def exponential(base,power):
+    value=1
+    for i in range(power):
+        value=base*value
+    return value
+base=int(input("enter the value of base"))
+power=int(input("enter the value of power"))
+print(exponential(base,power))
