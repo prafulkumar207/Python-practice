@@ -1,0 +1,18 @@
+n=int(input("no of vehicles:-"))
+a=[]
+c,f=0,0
+for i in range(n):
+    b=int(input("last digit:-"))
+    a.append(b)
+d=int(input("date"))
+e=int(input("fine"))
+if d%2==0:
+    for j in a:
+        if j%2==0:
+            c=c+1
+    print("total fine",c*e)    
+else:
+    for k in a:
+        if k%2!=0:
+            f=f+1        
+    print("total fine",f*e)
